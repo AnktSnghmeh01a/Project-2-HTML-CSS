@@ -1,0 +1,82 @@
+* {
+  margin: 0;
+  border: 0;
+}
+
+body {
+  background-color: whitesmoke;
+  
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 2%;
+  margin-top: 1%;
+}
+.left-side-header {
+  display: flex;
+}
+.left-side-header ul {
+  display: flex;
+  list-style: none;
+  gap: 25%;
+  margin-top: 4%;
+  margin-left: 3%;
+}
+.left-side-header ul li {
+  font-size: 20px;
+  font-weight: 900;
+  font-family: "Lato", sans-serif;
+}
+.left-side-header ul li:hover {
+  color: red;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.right-side-header {
+  margin-right: 2%;
+}
+.right-side-header button {
+  height: 45px;
+  width: 120px;
+  background-color: rgb(45, 34, 189);
+  color: aliceblue;
+  border-radius: 8px;
+}
+.right-side-header button:hover {
+  cursor: pointer;
+  background-color: red;
+}
+
+section {
+  display: flex;
+  justify-content: space-around;
+}
+.left-section {
+  margin-top: 8%;
+  margin-left: 3%;
+}
+
+.left-section h1 {
+  font-size: 70px;
+  font-family: "Lato", sans-serif;
+}
+.left-section p {
+  font-size: 20px;
+  margin-bottom: 30px;
+}
+.left-section button {
+  height: 50px;
+  width: 160px;
+  background-color: rgb(45, 34, 189);
+  color: aliceblue;
+  border-radius: 8px;
+}
+.left-section button:hover {
+  cursor: pointer;
+  background-color: red;
+}
+span {
+  color: rgb(117, 98, 223);
+}
